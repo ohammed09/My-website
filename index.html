@@ -3,35 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ياسر - مطوّر ويب</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>ياسر - مطور ويب</title>
+    <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>أنا ياسر</h1>
+
+    <header class="main-header">
+        <h1>ياسر حيدر</h1>
         <p>مطوّر ويب طموح</p>
+        <a href="#contact" class="btn">تواصل معي</a>
     </header>
-    
-    <section class="about">
-        <h2>من أنا؟</h2>
-        <p>أنا ياسر، شغوف بتطوير الويب وأسعى للاحتراف.</p>
+
+    <section id="about">
+        <h2>نبذة عني</h2>
+        <p>أنا ياسر، مطوّر ويب شغوف بالبرمجة وتطوير المواقع. أطمح للوصول إلى مستوى احترافي وبناء حلول رقمية مبتكرة.</p>
     </section>
 
-    <section class="projects">
-        <h2>مشاريعي</h2>
-        <div class="project-card">
-            <h3>مشروع 1</h3>
-            <p>تفاصيل عن المشروع...</p>
-        </div>
-        <div class="project-card">
-            <h3>مشروع 2</h3>
-            <p>تفاصيل عن المشروع...</p>
-        </div>
+    <section id="contact">
+        <h2>تواصل معي</h2>
+        <form>
+            <input type="text" placeholder="اسمك" required>
+            <input type="email" placeholder="بريدك الإلكتروني" required>
+            <textarea placeholder="رسالتك" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
     </section>
 
-    <footer>
-        <p>© 2025 ياسر - جميع الحقوق محفوظة</p>
-    </footer>
 </body>
 </html>
